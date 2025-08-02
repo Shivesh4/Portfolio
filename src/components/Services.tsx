@@ -5,14 +5,14 @@ const Services = () => {
     {
       icon: Code,
       title: 'Full-Stack Development',
-      description: 'End-to-end web applications using Angular, React, Node.js, and Python',
-      features: ['Modern UI/UX Design', 'RESTful API Development', 'Database Design', 'Real-time Features']
+      description: 'Building seamless, scalable digital experiences from concept to deployment',
+      features: ['Modern UI/UX Design', 'API Development & Integration', 'Real-time Features', 'Cloud-Native Deployment']
     },
     {
       icon: Brain,
       title: 'Machine Learning Integration',
-      description: 'AI-powered solutions with predictive analytics and intelligent automation',
-      features: ['LSTM Forecasting', 'Computer Vision', 'NLP Processing', 'Model Deployment']
+      description: 'Turning data into smart, automated solutions that adapt and improve over time',
+      features: ['Predictive Analytics', 'Computer Vision', 'Natural Language Processing', 'Model Deployment']
     }
   ];
 
@@ -88,7 +88,10 @@ const Services = () => {
               >
                 Start a Conversation
               </button>
-              <button className="btn-outline">
+              <button 
+                onClick={() => window.open('/resume.pdf', '_blank')}
+                className="btn-outline"
+              >
                 Download Resume
               </button>
             </div>

@@ -8,7 +8,8 @@ const Projects = () => {
       details: 'Reduced verification time from 2 days to 3 seconds using smart contracts and decentralized storage',
       technologies: ['Ethereum', 'Solidity', 'Web3.js', 'React', 'IPFS'],
       category: 'Blockchain',
-      featured: true
+      featured: true,
+      githubUrl: "https://github.com/Shivesh4/Blockchain_EDU"
     },
     {
       title: 'FairShare',
@@ -16,7 +17,8 @@ const Projects = () => {
       details: 'AI-powered expense tracking with predictive analytics and receipt scanning capabilities',
       technologies: ['Python', 'TensorFlow', 'OpenCV', 'Flask', 'React Native'],
       category: 'AI/ML',
-      featured: true
+      featured: true,
+      githubUrl: "https://github.com/Shivesh4/FairShare"
     },
     {
       title: 'SmartFlow',
@@ -24,7 +26,8 @@ const Projects = () => {
       details: 'Real-time traffic optimization system using IoT sensors and machine learning models',
       technologies: ['AWS SageMaker', 'IoT Core', 'Python', 'Node.js', 'React'],
       category: 'IoT/Cloud',
-      featured: true
+      featured: true,
+      githubUrl: "https://github.com/Shivesh4/Density-based-Traffic-Control-System"
     }
   ];
 
@@ -84,19 +87,26 @@ const Projects = () => {
 
               {/* Action Button */}
               <div className="flex">
-                <button className="w-full btn-outline text-sm py-2 flex items-center justify-center group">
+                <button 
+                  onClick={() => window.open(project.githubUrl, '_blank')}
+                  className="w-full btn-outline text-sm py-2 flex items-center justify-center group"
+                >
                   <Github className="w-4 h-4 mr-2" />
                   View Code
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </button>
               </div>
             </div>
+            
           ))}
         </div>
 
         {/* View More Projects */}
         <div className="text-center mt-12 animate-fade-in">
-          <button className="btn-ghost">
+          <button 
+            onClick={() => window.open('https://github.com/Shivesh4?tab=repositories', '_blank')}
+            className="btn-ghost"
+          >
             View All Projects on GitHub
             <ArrowRight className="w-4 h-4 ml-2" />
           </button>
