@@ -6,12 +6,12 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Copyright */}
-          <div className="flex items-center text-text-muted mb-4 md:mb-0">
-            <span>© 2024 Shivesh Saravanan. Made with</span>
+          {/* {/* <div className="flex items-center text-text-muted mb-4 md:mb-0"> */}
+            {/* <span>© 2024 Shivesh Saravanan. Made with</span>
             <Heart className="w-4 h-4 mx-2 text-primary animate-pulse" />
             <span>and</span>
             <Code className="w-4 h-4 ml-2 text-secondary" />
-          </div>
+          </div> */}
 
           {/* Quick Links */}
           <div className="flex space-x-6 text-text-muted">
