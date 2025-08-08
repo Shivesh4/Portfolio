@@ -14,7 +14,7 @@ const Footer = () => {
           </div> */}
 
           {/* Quick Links */}
-          <div className="flex space-x-6 text-text-muted">
+          <div className="flex justify-center items-center space-x-6 text-text-muted">
             <a href="#home" className="hover:text-primary transition-colors">Home</a>
             <a href="#about" className="hover:text-primary transition-colors">About</a>
             <a href="#projects" className="hover:text-primary transition-colors">Projects</a>
