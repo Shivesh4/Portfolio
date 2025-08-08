@@ -89,7 +89,7 @@ const Services = () => {
                 Start a Conversation
               </button>
               <button 
-                onClick={() => window.open('/Portfolio/resume.pdf', '_blank')}
+                onClick={() => window.open(`${import.meta.env.BASE_URL}resume.pdf`, '_blank')}
                 className="btn-outline"
               >
                 Download Resume
