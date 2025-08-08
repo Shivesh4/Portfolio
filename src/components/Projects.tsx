@@ -92,7 +92,7 @@ const Projects = () => {
                   className="w-full btn-outline text-sm py-2 flex items-center justify-center group"
                 >
                   <Github className="w-4 h-4 mr-2" />
-                  View Code
+                  View Project
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </button>
               </div>

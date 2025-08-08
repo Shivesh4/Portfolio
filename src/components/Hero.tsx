@@ -40,7 +40,7 @@ const Hero = () => {
             Shivesh Saravanan
           </h1>
           <div className="text-xl md:text-2xl text-gradient font-medium mb-4 animate-fade-in">
-            Software Engineer | ML Enthusiast
+            Software Engineering | Machine Learning
           </div>
 
           {/* One-liner */}
